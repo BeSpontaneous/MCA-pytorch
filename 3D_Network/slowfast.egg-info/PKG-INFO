@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: slowfast
+Version: 1.0
+Summary: SlowFast Video Understanding
+Home-page: unknown
+Author: FAIR
+Requires-Dist: yacs>=0.1.6
+Requires-Dist: pyyaml>=5.1
+Requires-Dist: av
+Requires-Dist: matplotlib
+Requires-Dist: termcolor>=1.1
+Requires-Dist: simplejson
+Requires-Dist: tqdm
+Requires-Dist: psutil
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: torchvision>=0.4.2
+Requires-Dist: sklearn
+Requires-Dist: tensorboard
+Requires-Dist: fairscale
+Provides-Extra: tensorboard-video-visualization
+Requires-Dist: moviepy; extra == "tensorboard-video-visualization"
