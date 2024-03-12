@@ -14,9 +14,9 @@
 </div>
 
 ## TL,DR
-- `Motivation`: Existing object recognition training protocols involve multiple data augmentation but neglect Hue Jittering, which leads to appearances variation. However, we find its beneficial effect in video recognition where static appearances are less important or even misleading (see Figure above).
+- `Motivation`: Existing object recognition training protocols involve multiple data augmentation but neglect Hue Jittering, which leads to appearance variation. However, we find its beneficial effect in video recognition since the appearance variation implicitly prioritizes motion information (see Figure above).
 - `Challenges`: (1) Inefficient implementation of Hue Jittering (2) Distribution shift caused by Hue Variance.
-- `Solution`: We propose a data augmentation method, named Motion Coherent Augmentation (MCA), which is composed of (1) SwapMix: modifies the appearances of video samples efficiently; (2) Variation Alignment: resolves the distribution shift caused by SwapMix.
+- `Solution`: We propose Motion Coherent Augmentation (MCA), which is composed of (1) SwapMix: modifies the appearances of video samples efficiently; (2) Variation Alignment: resolves the distribution shift caused by SwapMix.
 - `Strength`: (1) Obvious Performance Gain (2) Generalization ability over different architectures and datasets (3) Compatibility with other augmentation methods (4) Application of Variation Alignment in other augmentation methods for even higher performance
 
 
