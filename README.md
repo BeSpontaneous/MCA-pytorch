@@ -6,7 +6,7 @@
     <a><img src="fig/neu.png"  height="70px" ></a>
 </div>
 
-[arXiv](https://arxiv.org/abs/2303.14817) | Primary contact: [Yitian Zhang](mailto:markcheung9248@gmail.com)
+[arXiv](https://arxiv.org/abs/2403.09506) | Primary contact: [Yitian Zhang](mailto:markcheung9248@gmail.com)
 
 
 <div align="center">
